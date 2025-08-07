@@ -1,0 +1,35 @@
+name: SSLab_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - box2d-py=2.3  
+  - ffmpeg=5.1  # to generate animations
+  - graphviz  # for dot files
+  - python-graphviz  # for dot files
+  - ipython=8.5  # a powerful Python shell
+  - ipywidgets=8.0  
+  - joblib=1.1  # to save/load Scikit-Learn models
+  - jupyterlab=3.4  # to edit and run Jupyter notebooks
+  - matplotlib=3.5  # plotting
+  - nbdime=3.1  
+  - nltk=3.6  
+  - numexpr=2.8  
+  - numpy=1.23  # numerical computing
+  - pandas=1.4  # data analysis and manipulation
+  - pillow=9.2  # image manipulation
+  - pip  # Python's package-management system
+  - py-xgboost=1.6  
+  - pydot=1.4  
+  - python=3.10  # Python!
+  - requests=2.28  
+  - scikit-learn=1.1  # machine learning library
+  - scipy=1.9  # scientific/technical computing library
+  - statsmodels=0.13  
+  - tqdm=4.64  
+  - wheel  
+  - widgetsnbextension=4.0  
+  - pytorch # machine learning
+  - rdkit
+  - pip:
+    - urlextract~=1.6.0  
